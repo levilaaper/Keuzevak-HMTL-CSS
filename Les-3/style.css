@@ -1,0 +1,90 @@
+.box {
+    display: flex;
+}
+
+p,h1,h2,h3 {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+div {
+    margin: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.left {
+    flex: 1 1 auto;
+    width: 50%;
+}
+
+.right {
+    flex: 1 1 auto;
+    width: 50%;
+}
+
+.Ingredients {
+    width: 200%;
+    flex: 1 1 auto;
+}
+
+.Voorbereiding {
+    flex: 1 1 auto;
+}
+
+.Bereidingswijze {
+    flex: 1 1 auto;
+}
+
+.header {
+    flex: 1 1 auto;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.aside {
+    flex: 1 1 auto;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+.box {
+    flex-direction: row;
+    width: 100%;
+}
