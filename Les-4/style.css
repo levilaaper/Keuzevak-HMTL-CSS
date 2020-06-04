@@ -1,0 +1,51 @@
+/* FONTS */
+
+p,h1,h2,h3 {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* NAVIGATION */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* FLEX */
+
+.flex {
+    display: flex;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
