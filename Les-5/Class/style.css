@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.block {
+    float: left;
+}
+
+#block1{
+    height: 400px;
+    width: 200px;
+    background: yellow;
+}
+
+#block2{
+    height: 400px;
+width: 244px;
+background: white;
+border-style: solid;
+  border-width: 0 8px;
+  border-color: black;
+}
+
+#block3{
+    height: 400px;
+    width: 140px;
+    background: red;
+}
