@@ -11,7 +11,7 @@ p,h1,h2,h3 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 70px;
     padding: 0.5em 0 0 0.5em;
 }
 
@@ -91,7 +91,7 @@ section#bio {
     background-image: url('images/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vw;
+    height: 1000px;
 }
 
 section#bio img {
@@ -107,7 +107,7 @@ section#bio img {
 }
 
 #spacer {
-    padding: 28em 0 0 5em;
+    padding: 28% 0 0 3%;
 }
 
 #block {
