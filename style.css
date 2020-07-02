@@ -1,0 +1,39 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  justify-content: center;
+}
+
+.content {
+    padding: 0 20px;
+}
+
+body {
+    background-color: #3498db;
+    margin-top: 10em;
+
+}
+
+h1,h3,p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1,h3 {
+    padding: 20px;
+    color: #ecf0f1;
+}
+
+p {
+    font-size: 20px;
+    background-color: #ecf0f1;
+    padding: 2em;
+    border-radius: 10px;
+    color: #3498db;
+}
+
+a {
+    text-decoration: none;;
+}
+
