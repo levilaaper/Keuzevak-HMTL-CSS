@@ -1,0 +1,156 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/* FONTS */
+
+p,h1,h2,h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 80px;
+    padding: 0.5em 0 0 0.5em;
+}
+
+h3 {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+/* NAVIGATION */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34495e;
+  }
+  
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+nav ul li a p {
+    font-size: 20px;
+    margin: 0;
+    color: #ecf0f1;
+}
+
+nav ul li a:hover {
+    background-color: #2c3e50;
+}
+
+/* GENERAL */
+
+body {
+    background-color: #3498db;
+}
+
+section#reflectie, section#actiepunten, footer {
+    margin: 0 4em;
+}
+
+/* FLEX */
+
+section.flex {
+    display: flex;
+    padding: 10em 0 0 0;
+}
+
+.flex {
+    display: flex;
+
+}
+
+/* BIO */
+
+section#bio {
+    background-image: url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vw;
+}
+
+section#bio img {
+    width: 200px;
+}
+
+.bio {
+    width: 200px;
+}
+
+.spacing {
+    padding: 5em 2em 0 2em;
+}
+
+#spacer {
+    padding: 28em 0 0 5em;
+}
+
+#block {
+    background-color: #3498db;
+    border-radius: 30px;
+    padding: 2em;
+}
+
+/* IMAGES */
+#bio img {
+    height: 50%;
+    width: 50%;
+    margin-left: 2.4em;
+    float: right;
+}
+
+#reflectie img {
+    height: 50%;
+    width: 55%;
+    margin-left: 2.4em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    border-radius: 30px;
+}
+
+#actiepunten img {
+    height: 50%;
+    width: 55%;
+    margin-right: 2.4em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    border-radius: 30px;
+}
+
+/* FOOTER */
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    float: right;
+}
+
+footer a {
+    float: left;
+}
